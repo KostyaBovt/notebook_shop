@@ -2,5 +2,5 @@
 ### UNIT Factory project: online shop with: filters, basket, admin section, user account.
 
 For admin section - log in with: <br/>
-login: admin
-password: admin
+login: admin <br/>
+password: admin <br/>
