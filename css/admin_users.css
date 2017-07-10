@@ -1,0 +1,114 @@
+.all {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    overflow: auto;
+}
+
+.auth {
+    float: left;
+    /*clear: both;*/
+    margin-right: 3px;
+}
+    .auth p {
+        display: inline;
+    }
+
+.basket {
+    float: right;
+    clear: right;
+}
+    .basket p {
+        display: inline;
+    }
+
+.panel {
+    border: 3px dashed black;
+    margin-top: 3%;
+    padding: 60px 10px 60px 10px;
+    width: 100%;
+    overflow: auto;
+}
+
+.filter {
+    width: 16%;
+    height: 100%;
+    padding-right: 5%;
+    float: left;
+}
+
+.add-user {
+	float: left;
+	width: 76%;
+    border: 1px solid black;
+    padding-bottom: 2px;
+    margin-bottom: 7px;
+    background-color: #c5f7c7;
+    padding-left: 2%;
+
+}
+
+h3 {
+	float: left;
+	width: 78%;
+    /*border: 1px solid black;*/
+    margin-bottom: 7px;
+    margin-top: 7px;
+
+}
+
+.users {
+    width: 78%;
+    float: left;
+    /*border: 1px solid black;*/
+}
+
+.user-item {
+    width: 100%;
+    /*border: 1px solid black;*/
+    margin: auto;
+}
+    .user-header {
+        width: 100%;
+        background-color: #c5f7c7;
+        overflow: auto;
+        margin: 0px 0px 0px 0px;
+    }
+    .left {
+        float: left;
+        font-weight: bold;
+        margin: 0px 0px 0px 0px;
+        margin-left: 2%;
+    }
+
+    .right {
+        float: right;
+        font-weight: bold;
+        margin: 0px 0px 0px 0px;
+        margin-right: 2%;
+    }
+
+    .user-body {
+        width: 100%;
+        overflow: auto;
+        background-color: #eaffeb;
+        display: none;
+    }
+
+    td {
+        border: 1px solid black;
+
+        text-align: center;
+    }
+
+    table {
+    	/*border: 1px 1px 1px 1px;*/
+    	border-collapse: collapse;
+        margin-bottom: 1px;
+    }
+
+h3 {
+
+}

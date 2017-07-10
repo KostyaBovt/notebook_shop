@@ -1,0 +1,41 @@
+.all {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    overflow: auto;
+}
+
+.auth {
+    float: left;
+    margin-right: 3px;
+    /*clear: both;*/
+}
+    .auth p {
+        display: inline;
+    }
+
+.basket {
+    float: right;
+    clear: right;
+}
+    .basket p {
+        display: inline;
+    }
+
+.panel {
+    border: 3px dashed black;
+    margin-top: 3%;
+    padding: 60px 10px 60px 10px;
+    width: 100%;
+}
+
+textarea[name="descr"] {
+    width: 500px;
+    height: 100px;
+}

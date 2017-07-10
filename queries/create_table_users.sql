@@ -1,0 +1,8 @@
+CREATE TABLE main.users 
+(
+	id int(11) NOT NULL AUTO_INCREMENT,
+	login VARCHAR(64) NOT NULL,
+	passwd VARCHAR(128) NOT NULL,
+	`admin` int(1) NOT NULL DEFAULT '0',
+	PRIMARY KEY (id)
+);

@@ -1,0 +1,93 @@
+.all {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    overflow: auto;
+}
+
+.auth {
+    float: left;
+    margin-right: 3px;
+    /*clear: both;*/
+}
+    .auth p {
+        display: inline;
+    }
+
+.basket {
+    float: right;
+    clear: right;
+}
+    .basket p {
+        display: inline;
+    }
+
+.panel {
+    border: 3px dashed black;
+    margin-top: 3%;
+    padding: 60px 10px 60px 10px;
+    width: 100%;
+    overflow: auto;
+}
+
+.filter {
+    width: 15%;
+    padding-right: 5%;
+    float: left;
+}
+
+.orders {
+    width: 78%;
+    float: left;
+    /*border: 1px solid black;*/
+}
+
+.order-item {
+    width: 100%;
+    border: 1px solid black;
+    margin: auto;
+}
+    .order-header {
+        width: 100%;
+        background-color: #c5f7c7;
+        overflow: auto;
+        margin: 0px 0px 0px 0px;
+    }
+    .left {
+        float: left;
+        margin-left: 2%;
+        font-weight: bold;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .right {
+        float: right;
+        margin-right: 4%;
+        font-weight: bold;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .order-body {
+        width: 100%;
+        overflow: auto;
+        background-color: #eaffeb;
+        display: none;
+    }
+
+    .tb-img {
+        width: 15%;
+    }
+        .tb-img img {
+            width: 50%;
+        }
+
+    td {
+        border-top: 1px dashed black;
+        text-align: center;
+    }
+
+    table {
+        margin-bottom: 1px;
+    }

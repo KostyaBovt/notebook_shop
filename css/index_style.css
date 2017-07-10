@@ -1,0 +1,148 @@
+
+/*all body*/
+.all {
+	width : 80%;
+	margin-right: auto;
+	margin-left: auto;
+/*	border: 4px solid black;
+*/}
+
+/*Header*/
+.header {
+/*	border: 1px solid red;
+*/	overflow: auto;
+}
+
+	.auth {
+		float: left;
+/*		border: 1px solid blue;
+*/		clear: both;
+	}
+		.auth p {
+			display: inline;
+		}
+
+	.basket {
+		float: right;
+		clear: right;
+/*		border: 1px solid blue;
+*/	}
+		.basket p {
+			display: inline;
+		}
+
+
+	.name {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		clear:both;
+		border-top: 1px dashed black;
+		border-bottom: 1px dashed black;
+		text-align: center;
+	}
+
+
+/*Main container*/
+.main {
+/*	border: 1px solid red;
+*/	overflow: auto;
+}
+
+	.filter {
+		width : 15%;
+/*		border: 1px solid blue;
+*/		float: left;
+		padding-right: 5%;
+	}
+
+	.goods {
+		width: 79%;
+/*		border: 1px solid blue;
+*/		float: left;
+	}
+
+		.goods-item {
+			width: 100%;
+			/*height: 300px;*/
+/*			border: 1px solid green;
+*/			float: left;
+		}
+
+			.goods-img {
+/*				border: 1px solid black;
+*/				float: left;
+				width: 30%;
+				/*height: 200px;*/
+			}
+				.goods-img img {
+					width: 100%; 
+				}
+
+			.goods-foot {
+/*				border: 1px solid black;
+*/				/*width: 69%;*/
+				overflow: auto;
+			}
+
+				.goods-info {
+					padding: 7% 0% 0% 2%;
+/*					border: 1px solid green;
+*/					float: left;
+					width: 70%;
+				}
+				.goods-price {
+					padding: 10px 0px 0px 0px;
+					text-align: center;
+					float: left;
+/*					border: 1px solid green;
+*/					width: 28%;
+					/*height: 50px;*/
+					line-height: 50px; 
+					vertical-align: middle;
+				}
+				.goods-add-bskt {
+					float: left;
+/*					border: 1px solid green;
+*/					width: 28%;
+					height: 50px;
+					text-align: center;
+				}
+					.goods-add-bskt img {
+						height: 100%;
+					}
+
+
+/*Footer*/
+.footer {
+	width: 100%;
+	border-top: 1px dashed black;
+	border-bottom: 1px dashed black;
+	margin-top: 2%;
+	margin-bottom: : 2%;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: auto;
+}
+
+.footer h3 {
+	width : 120px;
+	margin: auto;
+}
+
+.map {
+	width: 40%;
+	float: left;
+	overflow: auto;
+	padding-left: 15%;
+	padding-bottom: 2%;
+}
+
+.map img {
+	width : 100%;
+}
+
+.adress {
+	margin-top: 4%;
+	margin-left: 4%;
+	float: left;
+}

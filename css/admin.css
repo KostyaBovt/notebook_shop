@@ -1,0 +1,52 @@
+.all {
+    width: 80%;
+    margin: auto;
+}
+
+.butt {
+	background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+}
+
+.header {
+    overflow: auto;
+}
+
+.auth {
+    float: left;
+    /*clear: both;*/
+    margin-right: 3px;
+}
+    .auth p {
+        display: inline;
+    }
+
+.basket {
+    float: right;
+    clear: right;
+}
+    .basket p {
+        display: inline;
+    }
+
+.panel {
+    border: 3px dashed black;
+    margin-top: 3%;
+    padding: 60px 10px 60px 10px;
+    width: 100%;
+}
